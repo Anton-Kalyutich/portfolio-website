@@ -1,5 +1,8 @@
-header, nav, section, footer {
+header, nav, section {
     padding: 30px;
+}
+
+section:first-of-type, section:nth-child(2), header, nav {
     border-bottom: 1px ridge;
 }
 
@@ -7,9 +10,18 @@ body {
     font-family: "Noticia Text", sans-serif;
 }
 
-header {
+footer {
+    padding: 30px;
+    border-top: 1px ridge;
+}
+
+/*
+
+header, footer {
     background-color: #fff1e5;
 }
+
+
 
 section:first-of-type {
     background-image: linear-gradient(to right, white, #faf7f5);
@@ -22,3 +34,5 @@ section:nth-of-type(2) {
 section:nth-of-type(3) {
     background-image: linear-gradient(to right, white, #faf7f5);
 }
+
+*/
