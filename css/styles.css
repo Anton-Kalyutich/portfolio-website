@@ -1,4 +1,24 @@
 header, nav, section, footer {
-    padding: 10px;
+    padding: 30px;
     border-bottom: 1px ridge;
+}
+
+body {
+    font-family: "Noticia Text", sans-serif;
+}
+
+header {
+    background-color: #fff1e5;
+}
+
+section:first-of-type {
+    background-image: linear-gradient(to right, white, #faf7f5);
+}
+
+section:nth-of-type(2) {
+    background-image: linear-gradient(to left, white, #faf7f5);
+}
+
+section:nth-of-type(3) {
+    background-image: linear-gradient(to right, white, #faf7f5);
 }
